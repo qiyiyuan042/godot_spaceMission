@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ohm6fy8xfems"]
+
+[ext_resource type="Script" uid="uid://c15yy2c3lyjaw" path="res://building.gd" id="1_e37n3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bnym6"]
+radius = 40.0
+
+[node name="Building" type="Area2D" unique_id=1355824266]
+script = ExtResource("1_e37n3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1824774616]
+shape = SubResource("CircleShape2D_bnym6")
+disabled = true
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1400824194]

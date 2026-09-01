@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://db3x6hhv5s5yi"]
+
+[ext_resource type="Script" uid="uid://bvcjdokm062ij" path="res://player.gd" id="1_ig7tw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jn20k"]
+size = Vector2(1, 1)
+
+[node name="Main" type="Node2D" unique_id=1261182073]
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=1749684460]
+position = Vector2(-52, 23)
+script = ExtResource("1_ig7tw")
+
+[node name="Polygon2D" type="Polygon2D" parent="player" unique_id=438234217]
+rotation = -1.5812074
+scale = Vector2(-5.3380113, 6370.801)
+polygon = PackedVector2Array(-8.720623, 0.036965117, -0.18732554, 1.6341555e-06, -0.18537521, 0.00015859178, 27.472305, 0.024719313)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=1616223126]
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_jn20k")

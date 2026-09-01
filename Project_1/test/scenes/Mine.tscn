@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cw3oganncy547"]
+
+[node name="Mine" type="Node2D" unique_id=517280710]
+rotation = -1.5707964
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=883096078]
+
+[node name="Polygon2D" type="Polygon2D" parent="Sprite2D" unique_id=1718962344]
+polygon = PackedVector2Array(5, 2.1855695e-07, 5, 3.0000002, 5, 3.0000002, 5, 5, 3.9999998, 5, 5, 5, -2.1855695e-07, 5, 0, 0)

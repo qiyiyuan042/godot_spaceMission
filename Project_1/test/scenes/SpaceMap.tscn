@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c7qf675f4rqas"]
+
+[ext_resource type="Script" uid="uid://l3h4ehp51iv5" path="res://scripts/space_map.gd" id="1_yjo15"]
+
+[node name="SpaceMap" type="Node2D" unique_id=576155325]
+script = ExtResource("1_yjo15")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2058763205]
+offset_right = 2000.0
+offset_bottom = 1200.0
+color = Color(0.11612659, 0.11612659, 0.11612659, 1)
