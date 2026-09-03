@@ -1,0 +1,14 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1788338343
+building.gd::GDScript::6661184123984858026::1788231969::0::1::::<>Area2D<><>0<>0<><>::
+Building.tscn::PackedScene::997878719957484146::1788231969::0::1::::<><><>0<>0<><>::uid://c15yy2c3lyjaw::::res://building.gd
+icon.svg::CompressedTexture2D::7418079300823305913::1788231969::1788232024::1::::<><><>0<>0<>602e96f782c14412d7e3384112bfc805<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main2.tscn::PackedScene::4797301677485939::1788254302::0::1::::<><><>0<>0<><>::uid://k5pi11b3816e::::res://Main.gd
+Main.gd::GDScript::764746216101052786::1788254354::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::7288705701747748608::1788231969::0::1::::<><><>0<>0<><>::uid://bvcjdokm062ij::::res://player.gd
+player.gd::GDScript::3865067717271343117::1788231969::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scenes/::1788231969
+Mine.tscn::PackedScene::6375659277875517746::1788231969::0::1::::<><><>0<>0<><>::
+SpaceMap.tscn::PackedScene::7052275079801033546::1788231969::0::1::::<><><>0<>0<><>::uid://l3h4ehp51iv5::::res://scripts/space_map.gd
+::res://scripts/::1788231969
+space_map.gd::GDScript::830356885734322008::1788231969::0::1::::<>Node2D<><>0<>0<><>::
